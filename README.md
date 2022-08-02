@@ -1,8 +1,8 @@
 # Welcome to this test
 
-[Chapter one](#chapter_one)
-[Chapter two](#chapter_two)
-[Sub chapter](#sub_chapter)
+* [Chapter one](#chapter-one)
+* [Chapter two](#chapter-two)
+* [Sub chapter](#sub-chapter)
 
 ## Chapter one
 
