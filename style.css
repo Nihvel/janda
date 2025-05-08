@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.parallax-section {
+    position: relative;
+    height: 100vh; /* Make each section take up the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This is the key for the parallax effect */
+}
+
+.bg-one {
+    background-image: url('https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'); /* Replace with your image URL */
+}
+
+.bg-two {
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'); /* Replace with your image URL */
+}
+
+.bg-three {
+    background-image: url('https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80'); /* Replace with your image URL */
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.normal-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
